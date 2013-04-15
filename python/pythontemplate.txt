@@ -1,0 +1,28 @@
+{% namespace %}
+namespace {{nameofnamespace}}
+{% endnamespace %}
+{% class %}
+{{classvisibility}} class {{nameofclass}} : {{parentclass}}
+{% endclass %}
+{% attribute %}
+{{attributevisibility}} {{attributetype}} {{attributename}};
+{% endattribute %}
+{% shortproperty %}
+{{propertyvisibility}} {{propertytype}} {{propertyname}} { get; set; }
+{% endshortproperty %}
+{% longproperty %}
+{{propertyvisibility}} {{propertytype}} {{propertyname}} 
+{ 
+    get
+    {
+        {{longpropertybodyget}}
+    }
+    set
+    {
+        {{longpropertybodyset}}
+    }
+}
+{% endlongproperty %}
+{% method %}
+{{methodvisibility}} {{returntype}}  {{methodname}}({{parameters}})
+{% endmethod %}
