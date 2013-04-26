@@ -1,0 +1,238 @@
+(iProject
+Project
+p0
+(dp1
+S'Files'
+p2
+(lp3
+(iFile
+File
+p4
+(dp5
+S'Path'
+p6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\ClassA.cs'
+p7
+sS'OriginalText'
+p8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication\n{\n    class ClassA\n    {\n        private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt{get;set}\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n    }\n}\n'
+p9
+sS'Namespaces'
+p10
+(lp11
+(iNamespace
+Namespace
+p12
+(dp13
+g2
+(lp14
+sS'Code'
+p15
+S'<\xc2\xa7LogicalBlockStart ID=1\xc2\xa7>\n<\xc2\xa7Class ID=1\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=1\xc2\xa7>'
+p16
+sS'Name'
+p17
+S'ExampleAplication'
+p18
+sbasS'CleanCode'
+p19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication\n<\xc2\xa7LogicalBlockStart ID=1\xc2\xa7>\n class ClassA\n <\xc2\xa7LogicalBlockStart ID=2\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt<\xc2\xa7LogicalBlockStart ID=3\xc2\xa7>get;set<\xc2\xa7LogicalBlockEnd ID=3\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=4\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=4\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=5\xc2\xa7>\n return <\xc2\xa7Comment ID=1\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=5\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=2\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=1\xc2\xa7>\n'
+p20
+sba(iFile
+File
+p21
+(dp22
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\ClassB.cs'
+p23
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication\n{\n    class ClassB\n    {\n\n                private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt{get;set}\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n    }\n}\n'
+p24
+sg10
+(lp25
+(iNamespace
+Namespace
+p26
+(dp27
+g2
+(lp28
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=6\xc2\xa7>\n<\xc2\xa7Class ID=2\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=6\xc2\xa7>'
+p29
+sg17
+S'ExampleAplication'
+p30
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication\n<\xc2\xa7LogicalBlockStart ID=6\xc2\xa7>\n class ClassB\n <\xc2\xa7LogicalBlockStart ID=7\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt<\xc2\xa7LogicalBlockStart ID=8\xc2\xa7>get;set<\xc2\xa7LogicalBlockEnd ID=8\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=9\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=9\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=10\xc2\xa7>\n return <\xc2\xa7Comment ID=2\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=10\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=7\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=6\xc2\xa7>\n'
+p31
+sba(iFile
+File
+p32
+(dp33
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\ClassC.cs'
+p34
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication\n{\n    class ClassC\n    {\n\n                private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt{get;set}\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n    }\n}\n'
+p35
+sg10
+(lp36
+(iNamespace
+Namespace
+p37
+(dp38
+g2
+(lp39
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=11\xc2\xa7>\n<\xc2\xa7Class ID=3\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=11\xc2\xa7>'
+p40
+sg17
+S'ExampleAplication'
+p41
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication\n<\xc2\xa7LogicalBlockStart ID=11\xc2\xa7>\n class ClassC\n <\xc2\xa7LogicalBlockStart ID=12\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt<\xc2\xa7LogicalBlockStart ID=13\xc2\xa7>get;set<\xc2\xa7LogicalBlockEnd ID=13\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=14\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=14\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=15\xc2\xa7>\n return <\xc2\xa7Comment ID=3\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=15\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=12\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=11\xc2\xa7>\n'
+p42
+sba(iFile
+File
+p43
+(dp44
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\ClassD.cs'
+p45
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication\n{\n    class ClassD\n    {\n\n\n                private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt{get;set}\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n    }\n}\n'
+p46
+sg10
+(lp47
+(iNamespace
+Namespace
+p48
+(dp49
+g2
+(lp50
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=16\xc2\xa7>\n<\xc2\xa7Class ID=4\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=16\xc2\xa7>'
+p51
+sg17
+S'ExampleAplication'
+p52
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication\n<\xc2\xa7LogicalBlockStart ID=16\xc2\xa7>\n class ClassD\n <\xc2\xa7LogicalBlockStart ID=17\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt<\xc2\xa7LogicalBlockStart ID=18\xc2\xa7>get;set<\xc2\xa7LogicalBlockEnd ID=18\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=19\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=19\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=20\xc2\xa7>\n return <\xc2\xa7Comment ID=4\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=20\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=17\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=16\xc2\xa7>\n'
+p53
+sba(iFile
+File
+p54
+(dp55
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\Program.cs'
+p56
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication\n{\n    class Program\n    {\n        static void Main(string[] args)\n        {\n        }\n    }\n}\n'
+p57
+sg10
+(lp58
+(iNamespace
+Namespace
+p59
+(dp60
+g2
+(lp61
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=21\xc2\xa7>\n<\xc2\xa7Class ID=5\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=21\xc2\xa7>'
+p62
+sg17
+S'ExampleAplication'
+p63
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication\n<\xc2\xa7LogicalBlockStart ID=21\xc2\xa7>\n class Program\n <\xc2\xa7LogicalBlockStart ID=22\xc2\xa7>\n static void Main(string[] args)\n <\xc2\xa7LogicalBlockStart ID=23\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=23\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=22\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=21\xc2\xa7>\n'
+p64
+sba(iFile
+File
+p65
+(dp66
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\InternalClasses\\ClassInternalA.cs'
+p67
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication.Internal\n{\n    class ClassInternalA\n    {\n\n       private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt { get; set; }\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n\n        private void AnotherMethod()\n        {\n        \n        }\n    }\n}\n'
+p68
+sg10
+(lp69
+(iNamespace
+Namespace
+p70
+(dp71
+g2
+(lp72
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=24\xc2\xa7>\n<\xc2\xa7Class ID=6\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=24\xc2\xa7>'
+p73
+sg17
+S'ExampleAplication.Internal'
+p74
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication.Internal\n<\xc2\xa7LogicalBlockStart ID=24\xc2\xa7>\n class ClassInternalA\n <\xc2\xa7LogicalBlockStart ID=25\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt <\xc2\xa7LogicalBlockStart ID=26\xc2\xa7> get; set; <\xc2\xa7LogicalBlockEnd ID=26\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=27\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=27\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=28\xc2\xa7>\n return <\xc2\xa7Comment ID=5\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=28\xc2\xa7>\n private void AnotherMethod()\n <\xc2\xa7LogicalBlockStart ID=29\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=29\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=25\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=24\xc2\xa7>\n'
+p75
+sba(iFile
+File
+p76
+(dp77
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\InternalClasses\\ClassX.cs'
+p78
+sg8
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\n\nnamespace ExampleAplication.Internal\n{\n    class ClassX\n    {\n\n                private string atr1;\n        private int atr2;\n        static int atr3;\n        float atr5;\n\n        public int ThisIsIt{get;set}\n\n        public int Dosomethig(string a, int b)\n        { \n            return 0; \n        \n        }\n\n        public string DoSomethingWithString(string x, bool doit)\n        {\n\n            return "something";\n        }\n    }\n}\n'
+p79
+sg10
+(lp80
+(iNamespace
+Namespace
+p81
+(dp82
+g2
+(lp83
+sg15
+S'<\xc2\xa7LogicalBlockStart ID=30\xc2\xa7>\n<\xc2\xa7Class ID=7\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=30\xc2\xa7>'
+p84
+sg17
+S'ExampleAplication.Internal'
+p85
+sbasg19
+S'\xef\xbb\xbfusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nnamespace ExampleAplication.Internal\n<\xc2\xa7LogicalBlockStart ID=30\xc2\xa7>\n class ClassX\n <\xc2\xa7LogicalBlockStart ID=31\xc2\xa7>\n private string atr1;\n private int atr2;\n static int atr3;\n float atr5;\n public int ThisIsIt<\xc2\xa7LogicalBlockStart ID=32\xc2\xa7>get;set<\xc2\xa7LogicalBlockEnd ID=32\xc2\xa7>\n public int Dosomethig(string a, int b)\n <\xc2\xa7LogicalBlockStart ID=33\xc2\xa7>\n return 0;\n <\xc2\xa7LogicalBlockEnd ID=33\xc2\xa7>\n public string DoSomethingWithString(string x, bool doit)\n <\xc2\xa7LogicalBlockStart ID=34\xc2\xa7>\n return <\xc2\xa7Comment ID=6\xc2\xa7>;\n <\xc2\xa7LogicalBlockEnd ID=34\xc2\xa7>\n <\xc2\xa7LogicalBlockEnd ID=31\xc2\xa7>\n<\xc2\xa7LogicalBlockEnd ID=30\xc2\xa7>\n'
+p86
+sba(iFile
+File
+p87
+(dp88
+g6
+S'/output/ut/csharpproject2/ExampleAplication\\ExampleAplication\\Properties\\AssemblyInfo.cs'
+p89
+sg8
+S'\xef\xbb\xbfusing System.Reflection;\nusing System.Runtime.CompilerServices;\nusing System.Runtime.InteropServices;\n\n// General Information about an assembly is controlled through the following \n// set of attributes. Change these attribute values to modify the information\n// associated with an assembly.\n[assembly: AssemblyTitle("ExampleAplication")]\n[assembly: AssemblyDescription("")]\n[assembly: AssemblyConfiguration("")]\n[assembly: AssemblyCompany("")]\n[assembly: AssemblyProduct("ExampleAplication")]\n[assembly: AssemblyCopyright("Copyright \xc2\xa9  2013")]\n[assembly: AssemblyTrademark("")]\n[assembly: AssemblyCulture("")]\n\n// Setting ComVisible to false makes the types in this assembly not visible \n// to COM components.  If you need to access a type in this assembly from \n// COM, set the ComVisible attribute to true on that type.\n[assembly: ComVisible(false)]\n\n// The following GUID is for the ID of the typelib if this project is exposed to COM\n[assembly: Guid("0b8d9c0e-4b46-4b39-bfcf-cadb8e00636a")]\n\n// Version information for an assembly consists of the following four values:\n//\n//      Major Version\n//      Minor Version \n//      Build Number\n//      Revision\n//\n// You can specify all the values or you can default the Build and Revision Numbers \n// by using the \'*\' as shown below:\n// [assembly: AssemblyVersion("1.0.*")]\n[assembly: AssemblyVersion("1.0.0.0")]\n[assembly: AssemblyFileVersion("1.0.0.0")]\n'
+p90
+sg10
+(lp91
+(iNamespace
+Namespace
+p92
+(dp93
+g2
+(lp94
+sg15
+S'\xef\xbb\xbfusing System.Reflection;\nusing System.Runtime.CompilerServices;\nusing System.Runtime.InteropServices;\n\n<\xc2\xa7Comment ID=20\xc2\xa7>\n<\xc2\xa7Comment ID=21\xc2\xa7>\n<\xc2\xa7Comment ID=22\xc2\xa7>\n[assembly: AssemblyTitle(<\xc2\xa7Comment ID=7\xc2\xa7>)]\n[assembly: AssemblyDescription(<\xc2\xa7Comment ID=8\xc2\xa7>)]\n[assembly: AssemblyConfiguration(<\xc2\xa7Comment ID=9\xc2\xa7>)]\n[assembly: AssemblyCompany(<\xc2\xa7Comment ID=10\xc2\xa7>)]\n[assembly: AssemblyProduct(<\xc2\xa7Comment ID=11\xc2\xa7>)]\n[assembly: AssemblyCopyright(<\xc2\xa7Comment ID=12\xc2\xa7>)]\n[assembly: AssemblyTrademark(<\xc2\xa7Comment ID=13\xc2\xa7>)]\n[assembly: AssemblyCulture(<\xc2\xa7Comment ID=14\xc2\xa7>)]\n\n<\xc2\xa7Comment ID=23\xc2\xa7>\n<\xc2\xa7Comment ID=24\xc2\xa7>\n<\xc2\xa7Comment ID=25\xc2\xa7>\n[assembly: ComVisible(false)]\n\n<\xc2\xa7Comment ID=26\xc2\xa7>\n[assembly: Guid(<\xc2\xa7Comment ID=15\xc2\xa7>)]\n\n<\xc2\xa7Comment ID=27\xc2\xa7>\n<\xc2\xa7Comment ID=28\xc2\xa7>\n<\xc2\xa7Comment ID=29\xc2\xa7>\n<\xc2\xa7Comment ID=30\xc2\xa7>\n<\xc2\xa7Comment ID=31\xc2\xa7>\n<\xc2\xa7Comment ID=32\xc2\xa7>\n<\xc2\xa7Comment ID=33\xc2\xa7>\n<\xc2\xa7Comment ID=34\xc2\xa7>\n<\xc2\xa7Comment ID=35\xc2\xa7>\n<\xc2\xa7Comment ID=36\xc2\xa7>\n[assembly: AssemblyVersion(<\xc2\xa7Comment ID=17\xc2\xa7>)]\n[assembly: AssemblyFileVersion(<\xc2\xa7Comment ID=18\xc2\xa7>)]\n'
+p95
+sg17
+S'BaseNamespace'
+p96
+sbasg19
+g95
+sbasg6
+S'input/csharpproject2/'
+p97
+sg17
+S''
+p98
+sS'X'
+p99
+g98
+sb.

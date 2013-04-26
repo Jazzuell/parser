@@ -3,9 +3,8 @@
 # Filename: Project.py
 
 if __name__ == '__main__':
-    print "snazis sa len spustit"
+    pass
 else:
-    print "importujes ma"
     from os import listdir,walk
     from os.path import isfile, join
     from File import File
@@ -22,7 +21,7 @@ else:
 
     class Project:
         def __init__(self,path,extensions):
-            print "project init", path,extensions
+            #print "project init", path,extensions
             self.Path=path
             self.Name=(path.split("\\"))[-1]
             if (len(path.split("\\"))==1):
@@ -38,8 +37,10 @@ else:
                 f.GetClasses()
         def Save(self):
             for f in self.Files:
-                print "saving file ",f
+                #print "saving file",f
                 f.Save()
                 
         def __str__(self):
             return self.Name
+        def __repr__(self):
+            return self.__str__()        

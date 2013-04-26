@@ -2,9 +2,18 @@
 # -*- coding: utf-8 -*- 
 
 class Attribute:
-    def __init__(self,name,type,visibility="private"):
-        self.Name = name
-        self.Type=type
-        self.Visibility=visibility
+    def __init__(self):
+        self.Name = ""
+        self.Type= ""
+        self.Private = False
+        self.Public = False
+        self.Static = False
+        self.Protected = False
+        self.Final = False
+        self.Value = ""
+        
     def __str__(self):
-        return self.Visibility+" " + self.Type + " " + self.Name 
+        return self.Type + " " + self.Name 
+
+    def __repr__(self):
+        return self.__str__()        

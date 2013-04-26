@@ -1,6 +1,9 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*- 
-FileExtensions=["py","PY"]Spacing = "    "Template = "cshaprtemplate.txt"Datatypes = ["byte","sbyte","short","ushort","int","uint","long","ulong","float","double","decimal","char","string","bool","object"]
+# setting fo Python
+
+LanguageName="Python"
+FileExtensions=["py","PY"]Spacing = "    "Template = "cshaprtemplate.txt"DataTypes = ["byte","sbyte","short","ushort","int","uint","long","ulong","float","double","decimal","char","string","bool","object"]
 
 ReservedWords=["abstract","event","new","struct","as","explicit","null","switch","base","extern","object","this","bool","false","operator","throw",
 "break","finally","out","true","byte","fixed","override","try","case","float","params","typeof","catch","for","private","uint","char",
@@ -14,6 +17,7 @@ ProtectedDefinition = ""
 DefaultDefiniton= PublicDefinition
 PartialDefinition = ""
 StaticDefinition = "@static\n"
+FinalDefinition = "final"
 
 MethodNonReturn = None
 MethodDefinition = [["def","):"],]

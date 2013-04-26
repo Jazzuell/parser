@@ -7,8 +7,10 @@ class Comment:
         self.Text=text
         
         def __str__(self):
-            return Alias
+            return Text
             
+        def __repr__(self):
+            return self.__str__()        
 
 class CommentRegister:
     @staticmethod
@@ -21,5 +23,6 @@ class CommentRegister:
         for comnt in CommentRegister.Comments:
             if comnt.ID==ID:
                 return comnt
+                
 CommentRegister.ID = 0
 CommentRegister.Comments=[]

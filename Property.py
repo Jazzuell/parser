@@ -1,14 +1,22 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*- 
 
+#from ParsingMethods import ConvertLogicalBlocks
+
+#import ParsingMethods
+
 class Property:
-    def __init__(self,name,type,short, visibility="public"):
-        self.Short=short
-        if not(self.Short):
-            self.GetBody=""
-            self.SetBody=""
-        self.Name = name
-        self.Type=type
-        self.Visibility=visibility
+    def __init__(self):
+        self.Body = ""
+        self.Name = ""
+        self.Type = ""
+        self.Public = False
+        self.Private = False
+        self.Static = False
+        self.Protected = False
+        
+    def __repr__(self):
+        return self.__str__()
+        
     def __str__(self):
-        return self.Visibility+" " + self.Type + " " + self.Name 
+        return self.Type + " " + self.Name + "| " + ConvertLogicalBlocks(self.Body) + "|" 
